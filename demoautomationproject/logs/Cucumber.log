@@ -1,0 +1,116 @@
+INFO  [2019-08-20T10:08:54,341][main] [:] I navigate to easyJet URL and accept the cookies
+INFO  [2019-08-20T10:08:54,444][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/easyJet/en-gb/main-menu
+INFO  [2019-08-20T10:09:01,582][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T10:09:01,647][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T10:09:01,728][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T10:09:02,668][main] [:] Navigating to the flight page
+INFO  [2019-08-20T10:09:11,404][main] [:] Click Continue button
+INFO  [2019-08-20T10:09:15,518][main] [:] Navigating to the baggage details page
+INFO  [2019-08-20T10:09:15,519][main] [:] Clicking the bag information on the bag details page
+INFO  [2019-08-20T10:09:32,706][main] [:] Click Continue Bag Button
+INFO  [2019-08-20T10:09:36,903][main] [:] Entering passenger details information
+INFO  [2019-08-20T10:09:37,820][main] [:] Click Home Address Link
+INFO  [2019-08-20T10:09:43,747][main] [:] Entering the home address details in the popup
+INFO  [2019-08-20T10:09:50,671][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:09:50,732][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:09:50,796][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:09:54,931][main] [:] Clicking Nothing to declare Button
+INFO  [2019-08-20T10:09:55,087][main] [:] Clicking Submit Button
+INFO  [2019-08-20T10:10:01,638][main] [:] Printing file reference number AMSU213141
+INFO  [2019-08-20T10:10:01,660][main] [:] Closing the browser
+INFO  [2019-08-20T10:18:28,600][main] [:] I navigate to easyJet URL and accept the cookies
+INFO  [2019-08-20T10:18:28,724][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/easyJet/en-gb/main-menu
+INFO  [2019-08-20T10:18:38,814][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T10:18:38,880][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T10:18:38,955][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T10:18:39,926][main] [:] Navigating to the flight page
+INFO  [2019-08-20T10:18:48,757][main] [:] Click Continue button
+INFO  [2019-08-20T10:18:52,875][main] [:] Navigating to the baggage details page
+INFO  [2019-08-20T10:18:52,876][main] [:] Clicking the bag information on the bag details page
+INFO  [2019-08-20T10:19:10,160][main] [:] Click Continue Bag Button
+INFO  [2019-08-20T10:19:14,373][main] [:] Entering passenger details information
+INFO  [2019-08-20T10:19:15,283][main] [:] Click Home Address Link
+INFO  [2019-08-20T10:19:21,875][main] [:] Entering the home address details in the popup
+INFO  [2019-08-20T10:19:28,750][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:19:28,815][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:19:28,881][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:19:33,021][main] [:] Clicking Nothing to declare Button
+INFO  [2019-08-20T10:19:33,180][main] [:] Clicking Submit Button
+INFO  [2019-08-20T10:32:29,061][main] [:] I navigate to easyJet URL and accept the cookies
+INFO  [2019-08-20T10:32:29,179][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/easyJet/en-gb/main-menu
+INFO  [2019-08-20T10:32:38,800][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T10:32:38,871][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T10:32:38,951][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T10:32:39,913][main] [:] Navigating to the flight page
+INFO  [2019-08-20T10:32:49,205][main] [:] Click Continue button
+INFO  [2019-08-20T10:32:53,324][main] [:] Navigating to the baggage details page
+INFO  [2019-08-20T10:32:53,325][main] [:] Clicking the bag information on the bag details page
+INFO  [2019-08-20T10:33:10,751][main] [:] Click Continue Bag Button
+INFO  [2019-08-20T10:33:14,938][main] [:] Entering passenger details information
+INFO  [2019-08-20T10:33:15,834][main] [:] Click Home Address Link
+INFO  [2019-08-20T10:33:23,142][main] [:] Entering the home address details in the popup
+INFO  [2019-08-20T10:33:30,017][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:33:30,084][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:33:30,152][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T10:33:34,291][main] [:] Clicking Nothing to declare Button
+INFO  [2019-08-20T10:33:34,479][main] [:] Clicking Submit Button
+INFO  [2019-08-20T11:27:41,096][main] [:] I navigate to Lufthansa URL and accept the cookies
+INFO  [2019-08-20T11:27:41,190][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/lufthansa/en-gb/main-menu
+INFO  [2019-08-20T11:27:49,952][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T11:27:50,025][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T11:27:50,124][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T11:27:51,071][main] [:] Navigating to the flight page
+INFO  [2019-08-20T11:29:05,474][main] [:] I navigate to Lufthansa URL and accept the cookies
+INFO  [2019-08-20T11:29:05,569][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/lufthansa/en-gb/main-menu
+INFO  [2019-08-20T11:29:10,861][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T11:29:10,976][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T11:29:11,065][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T11:29:12,041][main] [:] Navigating to the flight page
+INFO  [2019-08-20T11:29:47,094][main] [:] I navigate to Lufthansa URL and accept the cookies
+INFO  [2019-08-20T11:29:47,185][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/lufthansa/en-gb/main-menu
+INFO  [2019-08-20T11:29:52,704][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T11:29:52,770][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T11:29:52,851][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T11:29:53,825][main] [:] Navigating to the flight page
+INFO  [2019-08-20T11:30:02,439][main] [:] Click Continue button
+INFO  [2019-08-20T11:30:06,561][main] [:] Navigating to the baggage details page
+INFO  [2019-08-20T11:30:06,562][main] [:] Clicking the bag information on the bag details page
+INFO  [2019-08-20T11:30:23,783][main] [:] Click Continue Bag Button
+INFO  [2019-08-20T11:30:28,002][main] [:] Entering passenger details information
+INFO  [2019-08-20T13:12:42,944][main] [:] I navigate to easyJet URL and accept the cookies
+INFO  [2019-08-20T13:12:43,038][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/easyJet/en-gb/main-menu
+INFO  [2019-08-20T13:12:52,523][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T13:12:52,587][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T13:12:52,669][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T13:12:53,604][main] [:] Navigating to the flight page
+INFO  [2019-08-20T13:13:33,600][main] [:] I navigate to Lufthansa URL and accept the cookies
+INFO  [2019-08-20T13:13:33,703][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/lufthansa/en-gb/main-menu
+INFO  [2019-08-20T13:13:38,959][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T13:13:39,026][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T13:13:39,136][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T13:13:40,060][main] [:] Navigating to the flight page
+INFO  [2019-08-20T13:13:48,771][main] [:] Click Continue button
+INFO  [2019-08-20T13:13:52,882][main] [:] Navigating to the baggage details page
+INFO  [2019-08-20T13:13:52,883][main] [:] Clicking the bag information on the bag details page
+INFO  [2019-08-20T13:14:10,083][main] [:] Click Continue Bag Button
+INFO  [2019-08-20T13:14:14,294][main] [:] Entering passenger details information
+INFO  [2019-08-20T13:15:33,176][main] [:] I navigate to Lufthansa URL and accept the cookies
+INFO  [2019-08-20T13:15:33,269][main] [:] Navigating to the URL :https://mybag-qa.aero/baggage/#/lufthansa/en-gb/main-menu
+INFO  [2019-08-20T13:15:39,178][main] [:] Clicking Got IT continue
+INFO  [2019-08-20T13:15:39,243][main] [:] Clicking On Delayed Bag Image
+INFO  [2019-08-20T13:15:39,323][main] [:] Clicking On Continue Button
+INFO  [2019-08-20T13:15:40,286][main] [:] Navigating to the flight page
+INFO  [2019-08-20T13:15:48,899][main] [:] Click Continue button
+INFO  [2019-08-20T13:15:53,008][main] [:] Navigating to the baggage details page
+INFO  [2019-08-20T13:15:53,009][main] [:] Clicking the bag information on the bag details page
+INFO  [2019-08-20T13:16:10,201][main] [:] Click Continue Bag Button
+INFO  [2019-08-20T13:16:14,413][main] [:] Entering passenger details information
+INFO  [2019-08-20T13:16:15,251][main] [:] Click Home Address Link
+INFO  [2019-08-20T13:16:19,912][main] [:] Entering the home address details in the popup
+INFO  [2019-08-20T13:16:26,692][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T13:16:26,763][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T13:16:26,827][main] [:] Clicking Check Bits 1 Button
+INFO  [2019-08-20T13:16:31,009][main] [:] Clicking Nothing to declare Button
+INFO  [2019-08-20T13:16:31,183][main] [:] Clicking Submit Button
+INFO  [2019-08-20T13:16:37,374][main] [:] Printing file reference number VIELH10269
+INFO  [2019-08-20T13:16:37,393][main] [:] Closing the browser

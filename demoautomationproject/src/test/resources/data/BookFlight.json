@@ -1,0 +1,23 @@
+{
+	"BookFlight": [
+		{
+			"departingStation": "London",
+			"departingMonth": "April",
+			"departingDay": "17",
+			"arrivingStation": "Paris",
+			"arrivingMonth": "April",
+			"arrivingDay": "22",
+			"airline": "Unified Airlines",
+			"firstName": "Mohd",
+			"lastName": "Jeeshan",
+			"meal": "Kosher",
+			"cardType": "Diners Club",
+			"cardNumber": "12782398091274",
+			"expirationMonth": "12",
+			"expirationYear": "2025",
+			"creditCardFirstName": "Mohd",
+			"creditCardMiddleName": "Kayam",
+			"creditCardLastName": "Jeeshan"
+		}
+	]
+}

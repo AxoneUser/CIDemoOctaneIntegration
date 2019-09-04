@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="72.036714">
+<testcase classname="Create delayed bag" name="Delayed bag creation" time="72.036714">
+<system-out><![CDATA[Given I navigate to easyJet URL and accept the cookies......................passed
+When I Click on Report a delayed Bag Image and click on continue button in popup.passed
+Then I will land on flight page.............................................passed
+When I will Enter the flight details page data and click on Continue button.passed
+Then I will land on Baggage Details page data and enter the required information on the page.passed
+Then click on continue button and navigate to passenger details page........passed
+Then I will enter the data on Passenger details page........................passed
+When I click on Add home address link.......................................passed
+Then I will fill the data in Add home address pop and click on add address button.passed
+Then I will click on Continue button........................................passed
+Then Navigate to review page and click on Nothing to declare and click submit button.passed
+Then Store the file reference number and print it...........................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

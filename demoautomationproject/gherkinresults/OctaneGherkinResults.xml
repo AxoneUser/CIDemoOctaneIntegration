@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="Create delayed bag" path="src\test\resources\features\DelayedBag.feature" started="1566293642295" tag="@TID4001REV0.3.0"><file><![CDATA[@TID4001REV0.3.0
+Feature: Create delayed bag
+  I want to create AHL with easyJet airline
+
+  Scenario: Delayed bag creation
+    Given I navigate to easyJet URL and accept the cookies
+    When I Click on Report a delayed Bag Image and click on continue button in popup
+    Then I will land on flight page
+    When I will Enter the flight details page data and click on Continue button
+      | flightNumber | U28869 |
+    Then I will land on Baggage Details page data and enter the required information on the page
+    Then click on continue button and navigate to passenger details page
+    Then I will enter the data on Passenger details page
+    	|title|Mr|
+      | givenName    | Mohd                      |
+      | familyName   | Jeeshan                   |
+      | country      | Australia (61)            |
+      | mobileNumber |               09988776655 |
+      | email        | mohd.jeeshan@mindtree.com |
+    When I click on Add home address link
+    Then I will fill the data in Add home address pop and click on add address button
+      | address     | Royal Pavillion |
+      | city        | Aldershot       |
+      | county      | Hampshire       |
+      | countryCode | Australia       |
+    Then I will click on Continue button
+    Then Navigate to review page and click on Nothing to declare and click submit button
+    Then Store the file reference number and print it
+    Then close the browser
+]]></file><scenarios><scenario name="Delayed bag creation"><steps><step duration="10181991800" name="Given I navigate to easyJet URL and accept the cookies" status="passed"/><step duration="80776200" name="When I Click on Report a delayed Bag Image and click on continue button in popup" status="passed"/><step duration="960434800" name="Then I will land on flight page" status="passed"/><step duration="13413004400" name="When I will Enter the flight details page data and click on Continue button" status="passed"/><step duration="17425689200" name="Then I will land on Baggage Details page data and enter the required information on the page" status="passed"/><step duration="4187945200" name="Then click on continue button and navigate to passenger details page" status="passed"/><step duration="895849000" name="Then I will enter the data on Passenger details page" status="passed"/><step duration="3308382700" name="When I click on Add home address link" status="passed"/><step duration="4874765600" name="Then I will fill the data in Add home address pop and click on add address button" status="passed"/><step duration="6273282800" name="Then I will click on Continue button" status="passed"/><step duration="10189502500" name="Then Navigate to review page and click on Nothing to declare and click submit button" status="passed"/><step duration="20509371700" name="Then Store the file reference number and print it" status="failed"><error_message><![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#cfp_ref_number"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ANDROID10TESTPC', ip: '10.187.76.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ANDROI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59230}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 62f5965213e5bf9a3682bff3dc670fcf
+*** Element info: {Using=id, value=cfp_ref_number}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.getText(Unknown Source)
+	at psetest.cucumber.demo.pages.ReviewPage.getConfirmationLabel(ReviewPage.java:41)
+	at psetest.cucumber.demo.testcases.CreateDelayedBag.printFileReferenceNumber(CreateDelayedBag.java:217)
+	at ✽.Store the file reference number and print it(src/test/resources/features/DelayedBag.feature:28)
+]]></error_message></step><step duration="10700" name="Then close the browser" status="skipped"/></steps></scenario></scenarios></feature></features>

@@ -1,0 +1,18 @@
+{
+	"RegisterUser": [
+		{
+			"firstName": "Mohd",
+			"lastName": "Jeeshan",
+			"phoneNumber": "+9111882288",
+			"email": "bogart@gmail.com",
+			"address": "Bell Chase",
+			"city": "Aldershot",
+			"state": "London",
+			"postalCode": "GU11 1PZ",
+			"country": "UNITED KINGDOM ",
+			"userName": "Jeeshan",
+			"password": "password",
+			"confirmPassword": "password"
+		}
+	]
+}
