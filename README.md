@@ -1,2 +1,0 @@
-# CIDemoOctaneIntegration
-KarthikOctaneIntegration
