@@ -1,25 +1,19 @@
 package psetest.cucumber.demo.testcases;
 
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import com.aventstack.extentreports.GherkinKeyword;
 import com.aventstack.extentreports.Status;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import psetest.cucumber.demo.page.base.BasePage;
-import psetest.cucumber.demo.pages.BaggagePage;
-import psetest.cucumber.demo.pages.FlightPage;
-import psetest.cucumber.demo.pages.LandingPagePSS;
-import psetest.cucumber.demo.pages.PassengerPage;
-import psetest.cucumber.demo.pages.ReviewPage;
+import psetest.cucumber.demo.pages.*;
 import psetest.cucumber.demo.test.base.TestBase;
+
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class CreateDelayedBag {
 
@@ -33,7 +27,7 @@ public class CreateDelayedBag {
 	 * Adding the picco container cucumber dependency injection so that i can access
 	 * the test base object and reference variables.
 	 * 
-	 * @param <strong>TestBase</strong>
+	 * @param testBase
 	 */
 	public CreateDelayedBag(TestBase testBase) {
 		this.testBase = testBase;
@@ -41,6 +35,8 @@ public class CreateDelayedBag {
 
 	/** BasePage reference **/
 	private BasePage basePage;
+
+	private int myNum;
 
 	/** LandingPagePSS reference **/
 	private LandingPagePSS landingPage;
